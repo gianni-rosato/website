@@ -1,0 +1,62 @@
+/* 
+  CSS (Cascading Style Sheets) is used to style the HTML elements.
+  It controls the layout, colors, fonts, and overall "look" of the website.
+*/
+
+/* 
+  The body selector targets the entire page content. 
+  It's a good place to set default fonts and colors.
+*/
+body {
+  font-family:
+    Arial,
+    sans-serif; /* Sets the font to Arial or a generic sans-serif fallback */
+  line-height: 1.6; /* Increases space between lines for readability */
+  color: #333; /* Sets the text color to a dark grey */
+  max-width: 800px; /* Limits the width of the website content */
+  margin: 0 auto; /* Centers the content on the screen */
+  padding: 20px; /* Adds space around the inside edges */
+  background-color: #f4f4f4; /* Sets a light grey background for the whole page */
+}
+
+/* Header styling */
+header {
+  background: #35424a; /* Sets a dark slate color background */
+  color: #ffffff; /* Sets text color to white */
+  padding: 20px 0; /* Padding on top/bottom */
+  text-align: center; /* Centers the text inside the header */
+  border-bottom: #e8491d 3px solid; /* Adds a decorative orange bottom border */
+}
+
+/* Heading level 1 (Main Title) */
+h1 {
+  margin: 0; /* Removes default browser margins */
+}
+
+/* Main content area styling */
+main {
+  background: #fff; /* Sets the background to white */
+  padding: 20px; /* Adds space around the text */
+  margin-top: 20px; /* Adds space between the header and the content */
+  border-radius: 8px; /* Rounds the corners slightly */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+}
+
+/* Link styling */
+a {
+  color: #e8491d; /* Changes the default blue link color to orange */
+  text-decoration: none; /* Removes the default underline */
+}
+
+/* Hover state for links */
+a:hover {
+  text-decoration: underline; /* Adds the underline back when the mouse hovers over a link */
+}
+
+/* Footer styling */
+footer {
+  text-align: center; /* Centers the footer text */
+  padding: 20px; /* Adds space */
+  font-size: 0.8em; /* Makes the text slightly smaller */
+  color: #777; /* Makes the text a lighter grey */
+}
